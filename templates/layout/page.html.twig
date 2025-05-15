@@ -1,0 +1,31 @@
+{% extends "@classy/layout/page.html.twig" %}
+
+{% block page_top %}
+  {{ page_top }}
+{% endblock %}
+
+{% block page %}
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+      {% if page.header %}
+        {{ page.header }}
+      {% endif %}
+    </div>
+  </header>
+
+  <main id="main-content" class="py-10">
+    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+      {{ page.content }}
+    </div>
+  </main>
+
+  <footer class="bg-gray-100 mt-10">
+    <div class="max-w-7xl mx-auto px-4 py-6 text-center text-sm text-gray-600">
+      &copy; {{ "now"|date("Y") }} JFM Digital Works
+    </div>
+  </footer>
+{% endblock %}
+
+{% block page_bottom %}
+  {{ page_bottom }}
+{% endblock %}
