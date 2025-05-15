@@ -2,7 +2,7 @@ name: JFM Theme
 type: theme
 description: 'A simple, modern, accessible Drupal 11 theme using Tailwind CSS and Gulp.'
 core_version_requirement: ^11
-base theme: core
+base theme: stable9
 libraries:
   - jfm_theme/global
 regions:
