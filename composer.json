@@ -1,0 +1,10 @@
+{
+  "name": "jamesfmcgrath/jfm_theme",
+  "type": "drupal-theme",
+  "description": "A custom Drupal 11 theme using Tailwind CSS and Gulp.",
+  "license": "MIT",
+  "require": {},
+  "extra": {
+    "installer-name": "jfm_theme"
+  }
+}
